@@ -1,0 +1,269 @@
+// JSON VitaLogics API Data Structure
+
+{
+
+    "contact":{
+
+        "general":{
+
+            "id":"",
+
+            "vl_db_id":"",
+
+            "first_name":"",
+
+            "middle_name":"",
+
+            "last_name":"",
+
+            "gender":"",
+
+            "title":"",
+
+            "nick_name":"",
+
+            "spouse":"",
+
+            "email":"",
+
+            "billing_address_1":"",
+
+            "billing_address_2":"",
+
+            "billing_city":"",
+
+            "billing_state":"",
+
+            "billing_zip":"",
+
+            "home_phone":"",
+
+            "cell_phone":"",
+
+            "cell_carrier":"",
+
+            "work_phone":"",
+
+            "birthday":"",
+
+            "occupation":"",
+
+            "new_prospect_date":"",
+
+            "new_lead_date":"",
+
+            "new_patient_date":"",
+
+            "next_appointment_date":"",
+
+            "last_completed_appointment_date":"",
+
+            "contact_status":"",
+
+            "contact_class":"",
+
+            "general_source":"",
+
+            "referral_source_id":"",
+
+            "initial_condition":"",
+
+            "major_condition":"",
+
+            "assigned_clinic_provider_title":"",
+
+            "assigned_clinic_provider_first_name":"",
+
+            "assigned_clinic_provider_last_name":"",
+
+            "assigned_clinic_business_name":"",
+
+            "assigned_clinic_website":"",
+
+            "assigned_clinic_address":"",
+
+            "assigned_clinic_city":"",
+
+            "assigned_clinic_state":"",
+
+            "primary_insurance_company":"",
+
+            "last_updated":""
+
+        },
+
+        "appointments":{
+
+            "id":{
+
+                "id":"",
+
+                "case_id":"",
+
+                "color":"",
+
+                "provider":"",
+
+                "duration":"",
+
+                "room":"",
+
+                "clinic":"",
+
+                "date_created":"",
+
+                "last_updated":"",
+
+                "scheduled_date":"",
+
+                "walk_in":"",
+
+                "status":"",
+
+                "icd_codes":"",
+
+                "reason_for_visit":"",
+
+                "linked_notes":""
+
+            }
+
+        },
+
+        "charges":{
+
+            "id":{
+
+                "id":"",
+
+                "billing_provider":"",
+
+                "treating_provider":"",
+
+                "appointment_id":"",
+
+                "clinic":"",
+
+                "case_id":"",
+
+                "charge_code":"",
+
+                "charge_code_group":"",
+
+                "description":"",
+
+                "units":"",
+
+                "date_created":"",
+
+                "total_balance_owed":"",
+
+                "patient_amount_owed":"",
+
+                "insurance_amount_owed":"",
+
+                "insurance_paid_total":"",
+
+                "insurance_1_paid":"",
+
+                "insurance_2_paid":"",
+
+                "insurance_3_paid":"",
+
+                "patient_paid_total":"",
+
+                "fee_schedule_writeoffs":"",
+
+                "manual_writeoffs":"",
+
+                "total_writeoffs":"",
+
+                "insurance_fee_schedule_amount":"",
+
+                "total_billed":"",
+
+                "charge_price":""
+
+            }
+
+        },
+
+        "payments":{
+
+            "id":{
+
+                "id":"",
+
+                "charge_id":"",
+
+                "description":"",
+
+                "case_id":"",
+
+                "amount":"",
+
+                "payment_type":"",
+
+                "credit_type":"",
+
+                "date_created":"",
+
+                "posted_by":""
+
+            }
+
+        },
+
+        "cases":{
+
+            "id":{
+
+                "id":"",
+
+                "date_created":"",
+
+                "type":"",
+
+                "status":"",
+
+                "price_list":"",
+
+                "releases":{
+
+                    "medical_info":"",
+
+                    "hippa":"",
+
+                    "treament":"",
+
+                    "lien":""
+
+                },
+
+                "reminders":{
+
+                    "text":"",
+
+                    "email":""
+
+                },
+
+                "attorney":"",
+
+                "referring_provider":"",
+
+                "designated_provider":"",
+
+                "billing_provider":"",
+
+                "contact_id":"",
+
+                "balance":""
+
+            }
+
+        }
+
+    }
+
+}

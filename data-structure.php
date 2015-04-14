@@ -139,5 +139,6 @@ $contact_data = array(
 );
 echo '<pre>';
 print_r($contact_data);
+print_r(json_encode($contact_data));
 echo '</pre>';
 ?>
