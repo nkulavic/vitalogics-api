@@ -33,6 +33,7 @@ $contact_data = array(
                   'contact_class' => '', // Prospect, Lead, Patient
                   'general_source' => '',
                   'referral_source_id' => '',
+				  'referral_source_type' => '', // Internal or External
                   'initial_condition' => '', // Condition FreeText
                   'major_condition' => '', // Condition Dropdown
                   'assigned_clinic_provider_title' => '', // Self Explanatory

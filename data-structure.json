@@ -65,6 +65,8 @@
             "general_source":"",
 
             "referral_source_id":"",
+			
+		    "referral_source_type":"",
 
             "initial_condition":"",
 
