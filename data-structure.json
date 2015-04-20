@@ -1,6 +1,6 @@
 // JSON VitaLogics API Data Structure
 
-{{
+{
     "system": {
         "users": {
             "id": {
