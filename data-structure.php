@@ -216,3 +216,464 @@ echo '<br>Array Format<br>';
 print_r($contact_data);
 echo '</pre>';
 ?>
+JSON Format
+{
+    "system": {
+        "users": {
+            "id": {
+                "id": "",
+                "first_name": "",
+                "middle_name": "",
+                "last_name": "",
+                "username": "",
+                "titronics_username": "",
+                "groups": [],
+                "linked_provider_id": [],
+                "status": ""
+            }
+        },
+        "clinics": {
+            "id": {
+                "id": "",
+                "name": "",
+                "street_address": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "phone": "",
+                "fax": "",
+                "clinic_email": "",
+                "website": "",
+                "status": ""
+            }
+        },
+        "groups": {
+            "id": {
+                "id": "",
+                "name": "",
+                "access_privileges": {
+                    "billing": "",
+                    "main": "",
+                    "practice_dx": "",
+                    "reporting": ""
+                }
+            }
+        },
+        "providers": {
+            "id": {
+                "id": "",
+                "name": "",
+                "cell": "",
+                "fax": "",
+                "email": "",
+                "linked_user_id": ""
+            }
+        }
+    },
+    "contact": {
+        "general": {
+            "id": "",
+            "vl_db_id": "",
+            "first_name": "",
+            "middle_name": "",
+            "last_name": "",
+            "gender": "",
+            "title": "",
+            "nick_name": "",
+            "spouse": "",
+            "email": "",
+            "billing_address_1": "",
+            "billing_address_2": "",
+            "billing_city": "",
+            "billing_state": "",
+            "billing_zip": "",
+            "home_phone": "",
+            "cell_phone": "",
+            "cell_carrier": "",
+            "work_phone": "",
+            "birthday": "",
+            "occupation": "",
+            "new_prospect_date": "",
+            "new_lead_date": "",
+            "new_patient_date": "",
+            "next_appointment_date": "",
+            "last_completed_appointment_date": "",
+            "contact_status": "",
+            "contact_class": "",
+            "general_source": "",
+            "referrer_contact_id": "",
+            "referral_source_type": "",
+            "referral_source_type_admin": "",
+            "initial_condition": "",
+            "major_condition": "",
+            "assigned_clinic_provider_title": "",
+            "assigned_clinic_provider_first_name": "",
+            "assigned_clinic_provider_last_name": "",
+            "assigned_clinic_business_name": "",
+            "assigned_clinic_website": "",
+            "assigned_clinic_address": "",
+            "assigned_clinic_city": "",
+            "assigned_clinic_state": "",
+            "primary_insurance_company": "",
+            "secondary_insurance_company": "",
+            "tertairy_insurance_company": "",
+            "last_updated": "",
+            "last_updated_user_id": ""
+        },
+        "appointments": {
+            "id": {
+                "id": "",
+                "case_id": "",
+                "color": "",
+                "treating_provider": "",
+                "assigned_provider": "",
+                "duration": "",
+                "room": "",
+                "clinic_id": "",
+                "clinic_name": "",
+                "date_created": "",
+                "last_updated": "",
+                "last_updated_user_id": "",
+                "scheduled_date": "",
+                "walk_in": "",
+                "appointment_status": "",
+                "icd_codes": "",
+                "icd_description": "",
+                "reason_for_visit": "",
+                "linked_appointment_notes": ""
+            }
+        },
+        "charges": {
+            "id": {
+                "id": "",
+                "billing_provider": "",
+                "treating_provider": "",
+                "appointment_id": "",
+                "clinic_id": "",
+                "case_id": "",
+                "charge_code": "",
+                "charge_code_group": "",
+                "charge_description": "",
+                "units": "",
+                "date_created": "",
+                "total_balance_owed": "",
+                "patient_amount_owed": "",
+                "insurance_amount_owed": "",
+                "insurance_paid_total": "",
+                "insurance_1_paid": "",
+                "insurance_2_paid": "",
+                "insurance_3_paid": "",
+                "patient_paid_total": "",
+                "fee_schedule_writeoffs": "",
+                "manual_writeoffs": "",
+                "total_writeoffs": "",
+                "insurance_fee_schedule_amount": "",
+                "total_billed": "",
+                "charge_price": "",
+                "last_updated": "",
+                "last_updated_user_id": "",
+                "is_deleted": ""
+            }
+        },
+        "payments": {
+            "id": {
+                "id": "",
+                "charge_id": "",
+                "charge_description": "",
+                "case_id": "",
+                "amount": "",
+                "payment_type": "",
+                "credit_type": "",
+                "date_created": "",
+                "posted_by": "",
+                "last_updated": "",
+                "last_update_user_id": "",
+                "is_deleted": ""
+            }
+        },
+        "cases": {
+            "id": {
+                "id": "",
+                "date_created": "",
+                "type": "",
+                "case_status": "",
+                "price_list": "",
+                "releases": {
+                    "medical_info": "",
+                    "hippa": "",
+                    "treament": "",
+                    "lien": ""
+                },
+                "reminders": {
+                    "text": "",
+                    "email": ""
+                },
+                "attorney": "",
+                "referring_provider": "",
+                "designated_provider": "",
+                "billing_provider": "",
+                "contact_id": "",
+                "patient_case_balance": "",
+                "payer_case_balance": "",
+                "last_updated": "",
+                "last_updated_user_id": ""
+            }
+        }
+    }
+}
+Array Format
+Array
+(
+    [system] => Array
+        (
+            [users] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [first_name] => 
+                            [middle_name] => 
+                            [last_name] => 
+                            [username] => 
+                            [titronics_username] => 
+                            [groups] => Array
+                                (
+                                )
+
+                            [linked_provider_id] => Array
+                                (
+                                )
+
+                            [status] => 
+                        )
+
+                )
+
+            [clinics] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [name] => 
+                            [street_address] => 
+                            [city] => 
+                            [state] => 
+                            [zip] => 
+                            [phone] => 
+                            [fax] => 
+                            [clinic_email] => 
+                            [website] => 
+                            [status] => 
+                        )
+
+                )
+
+            [groups] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [name] => 
+                            [access_privileges] => Array
+                                (
+                                    [billing] => 
+                                    [main] => 
+                                    [practice_dx] => 
+                                    [reporting] => 
+                                )
+
+                        )
+
+                )
+
+            [providers] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [name] => 
+                            [cell] => 
+                            [fax] => 
+                            [email] => 
+                            [linked_user_id] => 
+                        )
+
+                )
+
+        )
+
+    [contact] => Array
+        (
+            [general] => Array
+                (
+                    [id] => 
+                    [vl_db_id] => 
+                    [first_name] => 
+                    [middle_name] => 
+                    [last_name] => 
+                    [gender] => 
+                    [title] => 
+                    [nick_name] => 
+                    [spouse] => 
+                    [email] => 
+                    [billing_address_1] => 
+                    [billing_address_2] => 
+                    [billing_city] => 
+                    [billing_state] => 
+                    [billing_zip] => 
+                    [home_phone] => 
+                    [cell_phone] => 
+                    [cell_carrier] => 
+                    [work_phone] => 
+                    [birthday] => 
+                    [occupation] => 
+                    [new_prospect_date] => 
+                    [new_lead_date] => 
+                    [new_patient_date] => 
+                    [next_appointment_date] => 
+                    [last_completed_appointment_date] => 
+                    [contact_status] => 
+                    [contact_class] => 
+                    [general_source] => 
+                    [referrer_contact_id] => 
+                    [referral_source_type] => 
+                    [referral_source_type_admin] => 
+                    [initial_condition] => 
+                    [major_condition] => 
+                    [assigned_clinic_provider_title] => 
+                    [assigned_clinic_provider_first_name] => 
+                    [assigned_clinic_provider_last_name] => 
+                    [assigned_clinic_business_name] => 
+                    [assigned_clinic_website] => 
+                    [assigned_clinic_address] => 
+                    [assigned_clinic_city] => 
+                    [assigned_clinic_state] => 
+                    [primary_insurance_company] => 
+                    [secondary_insurance_company] => 
+                    [tertairy_insurance_company] => 
+                    [last_updated] => 
+                    [last_updated_user_id] => 
+                )
+
+            [appointments] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [case_id] => 
+                            [color] => 
+                            [treating_provider] => 
+                            [assigned_provider] => 
+                            [duration] => 
+                            [room] => 
+                            [clinic_id] => 
+                            [clinic_name] => 
+                            [date_created] => 
+                            [last_updated] => 
+                            [last_updated_user_id] => 
+                            [scheduled_date] => 
+                            [walk_in] => 
+                            [appointment_status] => 
+                            [icd_codes] => 
+                            [icd_description] => 
+                            [reason_for_visit] => 
+                            [linked_appointment_notes] => 
+                        )
+
+                )
+
+            [charges] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [billing_provider] => 
+                            [treating_provider] => 
+                            [appointment_id] => 
+                            [clinic_id] => 
+                            [case_id] => 
+                            [charge_code] => 
+                            [charge_code_group] => 
+                            [charge_description] => 
+                            [units] => 
+                            [date_created] => 
+                            [total_balance_owed] => 
+                            [patient_amount_owed] => 
+                            [insurance_amount_owed] => 
+                            [insurance_paid_total] => 
+                            [insurance_1_paid] => 
+                            [insurance_2_paid] => 
+                            [insurance_3_paid] => 
+                            [patient_paid_total] => 
+                            [fee_schedule_writeoffs] => 
+                            [manual_writeoffs] => 
+                            [total_writeoffs] => 
+                            [insurance_fee_schedule_amount] => 
+                            [total_billed] => 
+                            [charge_price] => 
+                            [last_updated] => 
+                            [last_updated_user_id] => 
+                            [is_deleted] => 
+                        )
+
+                )
+
+            [payments] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [charge_id] => 
+                            [charge_description] => 
+                            [case_id] => 
+                            [amount] => 
+                            [payment_type] => 
+                            [credit_type] => 
+                            [date_created] => 
+                            [posted_by] => 
+                            [last_updated] => 
+                            [last_update_user_id] => 
+                            [is_deleted] => 
+                        )
+
+                )
+
+            [cases] => Array
+                (
+                    [id] => Array
+                        (
+                            [id] => 
+                            [date_created] => 
+                            [type] => 
+                            [case_status] => 
+                            [price_list] => 
+                            [releases] => Array
+                                (
+                                    [medical_info] => 
+                                    [hippa] => 
+                                    [treament] => 
+                                    [lien] => 
+                                )
+
+                            [reminders] => Array
+                                (
+                                    [text] => 
+                                    [email] => 
+                                )
+
+                            [attorney] => 
+                            [referring_provider] => 
+                            [designated_provider] => 
+                            [billing_provider] => 
+                            [contact_id] => 
+                            [patient_case_balance] => 
+                            [payer_case_balance] => 
+                            [last_updated] => 
+                            [last_updated_user_id] => 
+                        )
+
+                )
+
+        )
+
+)
