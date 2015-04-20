@@ -177,7 +177,7 @@ $contact_data = array(
 				'is_deleted' => '', //  Boolean if Payment has been deleted in system or not
             )
         ),
-        'cases' => array(
+        'cases' => array( 
             'id' => array(
                 'id' => '',
                 'date_created' => '',
