@@ -156,7 +156,8 @@ $contact_data = array(
                 'total_billed' => '', // Self Explanatory
                 'charge_price' => '', // Price of charge from Price List
                 'last_updated' => '', // MYSQL Timestamp of last time the charge was updated. 
-                'last_updated_user_id' => '' // System User ID of the user to update the charge.
+                'last_updated_user_id' => '', // System User ID of the user to update the charge.
+				'is_deleted' => '', //  Boolean if Charge has been deleted in system or not
             )
         ),
         'payments' => array(
@@ -172,7 +173,8 @@ $contact_data = array(
                 'date_created' => '', // Date payment was added
                 'posted_by' => '', // Person who posted the payment
                 'last_updated' => '', // MYSQL Timestamp of the last update made to payment
-                'last_update_user_id' => '' // // System User ID of the user to update the payment.
+                'last_update_user_id' => '', // // System User ID of the user to update the payment.
+				'is_deleted' => '', //  Boolean if Payment has been deleted in system or not
             )
         ),
         'cases' => array(
