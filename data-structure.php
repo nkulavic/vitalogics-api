@@ -212,7 +212,7 @@ echo 'JSON Format<br>';
 print_r(json_encode($contact_data, JSON_PRETTY_PRINT));
 echo '</pre>';
 echo '<pre>';
-echo 'Array Format<br>';
+echo '<br>Array Format<br>';
 print_r($contact_data);
 echo '</pre>';
 ?>
